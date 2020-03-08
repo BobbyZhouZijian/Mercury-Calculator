@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/menu/menu",
+    "pages/calc/calc",
+    "pages/fullService/fullService",
+    "pages/partialService/partialService",
+    "pages/fullService/ps/ps",
+    "pages/fullService/supplementaryEssays/supplement",
+    "pages/fullService/ps/ranking/ranking"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "selectedColor": "#cc1004",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/me.png",
+        "selectedIconPath": "images/tabbar/me-selected.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "价目表",
+        "iconPath": "images/tabbar/order.png",
+        "selectedIconPath": "images/tabbar/order-selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

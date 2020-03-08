@@ -1,0 +1,13 @@
+<!--pages/calc/calc.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toFull"> {{fullService}} </button>
+  </view>
+</view>
+<view class="container">
+  <view class="usermotto">
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toPartial"> {{partialService}} </button>
+  </view>
+</view>

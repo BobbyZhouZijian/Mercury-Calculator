@@ -1,0 +1,6 @@
+<!--pages/menu/menu.wxml-->
+<view class="container">
+  <label>欢迎咨询Mercury Studio</label>
+  <image src="../../images/price-menu1.jpg"></image>
+  <image src="../../images/price-menu2.jpg"></image>
+</view>
