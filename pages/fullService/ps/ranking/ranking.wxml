@@ -2,19 +2,24 @@
 <view class="container">
   <!--选择器-->
   <view class="section">
-    <view class="section__title">{{title}}</view>
+    <view class="section__title"><text>{{title}}</text></view>
     <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
       <view>
-        <text>当前选择：</text><text class="picker"> ○ {{array[index]}}</text>
+        <text>当前选择：</text><text class="picker"> ○ {{index == 3 ? "点击此处选择" : array[index]}}</text>
       </view>
     </picker>
   </view>
   <view class="section">
-    <view>根据您的排名选择，我们给您的建议价格为：</view>
+    <view><text>根据您的排名选择，我们给您的建议价格为：</text></view>
     <text>\n\n</text>
-    <view class="decision">{{priceArray[index]}}</view>
+    <view class="decision"><text>{{priceArray[index]}}</text></view>
   </view>
 </view>
-<view class="container">
-  <text class="web-colored" bindtap="toWeb">了解更多关于Mercury Studio</text>
+<text>\n\n\n\n\n\n\n\n\n\n</text>
+<view class="weui-footer">
+  <view style="color: black">
+      <text class="web-colored" bindtap="toWeb">点击此处了解更多关于Mercury Studio</text>
+  </view>
+  <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
 </view>
+<image class="blackImage" src="../../../../images/business.jpg"> </image>

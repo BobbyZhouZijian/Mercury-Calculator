@@ -1,16 +1,23 @@
-// pages/otherService/otherService.js
+// pages/partialService/draft/draft.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-
+    chinese: "中文稿",
+    english: "英文稿"
   },
 
-  toWeb: function () {
+  toChinese: function () {
     wx.navigateTo({
-      url: '../web/web',
+      url: './chinese/chinese',
+    })
+  },
+
+  toEnglish: function () {
+    wx.navigateTo({
+      url: './english/english',
     })
   },
 

@@ -8,6 +8,20 @@ Page({
 
   },
 
+  preview1: function (e) {
+    wx.previewImage({
+      current: '',
+      urls: ["https://i.loli.net/2020/03/09/haju56VFbilmNdQ.png"],
+    })
+  },
+
+  preview2: function (e) {
+    wx.previewImage({
+      current: '',
+      urls: ["https://i.loli.net/2020/03/09/s2HpSnOLFGmwjKq.png"],
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */

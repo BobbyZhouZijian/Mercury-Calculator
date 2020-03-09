@@ -1,19 +1,24 @@
 <!--pages/fullService/fullService.wxml-->
-<view class="container">
-  <view class="usermotto">
-    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+<view class="page">
+  <view class="container">
+    <text>请选择您的申请国家：</text>
+    <view class="div-line"></view>
+    <text>\n\n\n</text>
+    <button class="btn" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toUS"> {{ps}} </button>
-  </view>
-</view>
-<view class="container">
-  <view class="usermotto">
-    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+    <text>\n\n\n</text>
+    <button class="btn" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toUK"> {{ukps}} </button>
-  </view>
-</view>
-<view class="container">
-  <view class="usermotto">
-    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+    <text>\n\n\n</text>
+    <button class="btn" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toOthers"> {{others}} </button>
   </view>
+  <text>\n\n\n\n\n\n</text>
+  <view class="weui-footer">
+    <view style="color: black">
+        Mercury Studio
+    </view>
+    <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
+  </view>
 </view>
+<image class="blackImage" src="../../images/business.jpg"> </image>

@@ -1,16 +1,26 @@
-// pages/otherService/otherService.js
+// pages/partialService/draft/chinese/chinese.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
+    title: "请选择您是否需要对文章先进行评估：",
+    array: ['先进行评估', '无需评估，直接修改', '未选择'],
+    priceArray: ['我们推荐您先和我们的导师进行Brainstorm环节，价格为200RMB/小时，如有需要请联系公众号客服：Mercury Studio\n点击下方了解更多', 
+    '我们推荐您选择\n○语法句法措辞修改：300RMB/篇\n○框架/结构/逻辑精修：450RMB/篇', '您还未选择服务内容'],
+    index: 2,
+  },
 
+  bindPickerChange: function (e) {
+    this.setData({
+      index: e.detail.value
+    })
   },
 
   toWeb: function () {
     wx.navigateTo({
-      url: '../web/web',
+      url: '../../../web/web',
     })
   },
 

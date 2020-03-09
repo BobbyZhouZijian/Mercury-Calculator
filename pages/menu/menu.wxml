@@ -1,6 +1,8 @@
 <!--pages/menu/menu.wxml-->
 <view class="container">
-  <label>欢迎咨询Mercury Studio</label>
-  <image src="../../images/price-menu1.jpg"></image>
-  <image src="../../images/price-menu2.jpg"></image>
+  <text>Menu - Mercury Studio\n\n</text>
+  <image mode="aspectFill" src="../../images/price-menu1.jpg" bindtap="preview1"></image>
+  <text>\n</text>
+  <image mode="aspectFill" src="../../images/price-menu2.jpg" bindtap="preview2"></image>
+  <image class="blackImage" src="../../images/business.jpg"> </image>
 </view>

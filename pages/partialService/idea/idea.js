@@ -1,4 +1,4 @@
-// pages/otherService/otherService.js
+// pages/partialService/idea/idea.js
 Page({
 
   /**
@@ -6,12 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  toWeb: function () {
-    wx.navigateTo({
-      url: '../web/web',
-    })
   },
 
   /**

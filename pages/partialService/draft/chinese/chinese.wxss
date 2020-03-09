@@ -1,0 +1,5 @@
+/* pages/partialService/draft/chinese/chinese.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+}

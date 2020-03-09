@@ -1,0 +1,5 @@
+/* pages/partialService/draft/english/english.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+}

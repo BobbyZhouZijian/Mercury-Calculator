@@ -1,4 +1,4 @@
-// pages/otherService/otherService.js
+// pages/partialService/outline/outline.js
 Page({
 
   /**
@@ -10,7 +10,7 @@ Page({
 
   toWeb: function () {
     wx.navigateTo({
-      url: '../web/web',
+      url: '../../../web/web',
     })
   },
 

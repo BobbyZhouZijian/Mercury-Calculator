@@ -11,10 +11,16 @@
     "pages/fullService/ps/ps",
     "pages/fullService/ukps/ukps",
     "pages/fullService/ps/supplementaryEssays/supplement",
-    "pages/fullService/ps/ranking/ranking"
+    "pages/fullService/ps/ranking/ranking",
+
+    "pages/partialService/idea/idea",
+    "pages/partialService/outline/outline",
+    "pages/partialService/draft/draft",
+    "pages/partialService/draft/chinese/chinese",
+    "pages/partialService/draft/english/english"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
@@ -23,6 +29,7 @@
   "tabBar": {
     "selectedColor": "#cc1004",
     "borderStyle": "black",
+    "backgroundColor": "gray",
     "list": [
       {
         "pagePath": "pages/index/index",

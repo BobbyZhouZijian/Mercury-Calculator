@@ -1,1 +1,5 @@
 /* pages/fullService/ps/ranking/ranking.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+}

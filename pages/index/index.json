@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "Mercury估价器",
   "backgroundColor": "#00a2f3",
-  "usingComponents": {}
+  "usingComponents": {},
+  "disableScroll": true
 }

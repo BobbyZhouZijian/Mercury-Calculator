@@ -1,2 +1,19 @@
 <!--pages/partialService/partialService.wxml-->
-<text>pages/partialService/partialService.wxml</text>
+<view class="container">
+  <text>请选择您当前的文书进度：</text>
+  <view class="div-line"></view>
+  <text>\n\n\n</text>
+  <button class="btn" hover-class="button-hover"
+      disabled="{{disabled}}" bindtap="toIdea"> {{idea}} </button>
+  <text>\n\n\n</text>
+  <button class="btn" hover-class="button-hover"
+      disabled="{{disabled}}" bindtap="toOutline"> {{outline}} </button>
+  <text>\n\n\n</text>
+  <button class="btn" hover-class="button-hover"
+      disabled="{{disabled}}" bindtap="toDraft"> {{draft}} </button>
+  <text>\n\n\n</text>
+    <button class="btn" hover-class="button-hover"
+      disabled="{{disabled}}" bindtap="toFullScript"> {{fullScript}} </button>
+</view>
+<image class="blackImage" src="../../images/business.jpg"> </image>
+

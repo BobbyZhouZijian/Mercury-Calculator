@@ -1,1 +1,5 @@
 /* pages/fullService/supplementaryEssays/supplement.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+}

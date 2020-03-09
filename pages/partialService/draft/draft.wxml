@@ -1,0 +1,12 @@
+<!--pages/partialService/draft/draft.wxml-->
+<view class="container">
+  <text>请选择您的初稿类型：</text>
+  <view class="div-line"></view>
+  <text>\n\n\n</text>
+    <button class="btn" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toEnglish"> {{english}} </button>
+  <text>\n\n\n</text>
+    <button class="btn" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toChinese"> {{chinese}} </button>
+</view>
+<image class="blackImage" src="../../../images/business.jpg"> </image>

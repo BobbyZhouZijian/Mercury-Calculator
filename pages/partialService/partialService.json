@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "拆分服务",
+  "usingComponents": {},
+  "disableScroll": true
 }

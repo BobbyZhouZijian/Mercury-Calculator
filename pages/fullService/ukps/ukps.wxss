@@ -1,1 +1,6 @@
 /* pages/fullService/ukps/ukps.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}

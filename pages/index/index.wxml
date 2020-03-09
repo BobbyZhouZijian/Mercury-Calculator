@@ -1,14 +1,10 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+  <image class="avatar" src="../../images/mercury.jpg" mode="cover"></image>
+  <text class="title">Mercury Studio</text>
+  <view class="motto">
+    <button class="btn" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toCalc"> {{motto}} </button>
   </view>
 </view>
+<image class="blackImage" src="../../images/business.jpg"> </image>

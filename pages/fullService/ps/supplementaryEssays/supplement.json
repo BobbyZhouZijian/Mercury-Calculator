@@ -1,4 +1,5 @@
 {
   "navigationBarTitleText": "补充文书类型",
-  "usingComponents": {}
+  "usingComponents": {},
+  "disableScroll": true
 }

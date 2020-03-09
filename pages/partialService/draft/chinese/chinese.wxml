@@ -1,0 +1,21 @@
+<!--pages/partialService/draft/chinese/chinese.wxml-->
+<view class="container">
+  <!--选择器-->
+  <view class="section">
+    <view class="section__title"><text>{{title}}</text></view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view>
+        <text>当前选择：</text><text class="picker"> ○ {{index == 2 ? "点击此处选择" : array[index]}}</text>
+      </view>
+    </picker>
+  </view>
+  <view class="section">
+    <view><text>根据您的排名选择，我们给您的建议价格为：</text></view>
+    <text>\n\n</text>
+    <view class="decision"><text>{{priceArray[index]}}</text></view>
+  </view>
+</view>
+<view class="container">
+  <text class="web-colored" bindtap="toWeb">点击此处了解更多关于Mercury Studio</text>
+</view>
+<image class="blackImage" src="../../../../images/business.jpg"> </image>

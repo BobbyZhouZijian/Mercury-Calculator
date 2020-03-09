@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "服务类型",
+  "usingComponents": {},
+  "disableScroll": true
 }
