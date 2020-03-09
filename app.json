@@ -12,6 +12,7 @@
     "pages/fullService/ukps/ukps",
     "pages/fullService/ps/supplementaryEssays/supplement",
     "pages/fullService/ps/ranking/ranking",
+    "pages/fullService/other/other",
 
     "pages/partialService/idea/idea",
     "pages/partialService/outline/outline",

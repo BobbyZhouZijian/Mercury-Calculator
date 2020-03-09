@@ -1,14 +1,15 @@
-// pages/fullService/supplementaryEssays/supplement.js
+// pages/fullService/other/other.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    title: "请选择你想要的补充文书类型",
-    array: ['Why School Essay (+ Reasearch)', 'Supplemental Essay', '未选择'],
-    priceArray: ['200-400 RMB/小时', '1000-3000 RMB/篇', '您还未选择文书类型'],
-    index: 2,
+    title: "请选择您的目标国家：",
+    array: ['日本', '新加坡', '香港', '加拿大', '法国', '未选择'],
+    priceArray: ['1500-3000 RMB/篇', '2000 RMB/篇', '4000 RMB/篇',
+                   '○ PS：4000/篇\n\n○ Supplemental Essay: \n1500-2000 RMB/篇', '4000 RMB/篇', '您还未选择排名范围'],
+    index: 5,
   },
 
   bindPickerChange: function (e) {
@@ -17,9 +18,15 @@ Page({
     })
   },
 
+  toMenu: function () {
+    wx.navigateTo({
+      url: '',
+    })
+  },
+
   toWeb: function () {
     wx.navigateTo({
-      url: '../../../web/web',
+      url: '../../web/web',
     })
   },
 

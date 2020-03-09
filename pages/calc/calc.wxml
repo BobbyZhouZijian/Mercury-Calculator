@@ -5,20 +5,20 @@
       请选择您想要的服务类型：
     </text>
     <view class="div-line"></view>
-    <text>\n\n</text>
+    <text>\n\n\n\n</text>
     <button class="btn" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toFull"> {{fullService}} </button>
-  </view>
-  <view class="container">
+    <text>\n\n\n\n</text>
     <button class="btn" over-class="button-hover"
         disabled="{{disabled}}" bindtap="toPartial"> {{partialService}} </button>
   </view>
-  <text>\n\n\n\n\n</text>
   <view class="weui-footer">
-    <view style="color: black">
-        Mercury Studio
+    <view class="fix">
+      <view style="color: black">
+          Mercury Studio
+      </view>
+      <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
     </view>
-    <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
   </view>
 </view>
 <image class="blackImage" src="../../images/business.jpg"> </image>

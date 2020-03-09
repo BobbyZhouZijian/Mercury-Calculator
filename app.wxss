@@ -30,16 +30,24 @@ font-family:MicroSoft yahei;
 }
 
 .decision {
-  border:1px solid #405f80;
-  width:500rpx;
-  border-radius:5rpx;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background :linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  position: fixed;
+  border: 1px solid lightblue;
+  align-items: center;
+  justify-content: center;
+  height: 300px;  
+  width: 70%;
+  left: 60px;
+  border-radius:50rpx;
   text-align:center;
 }
 
 .web-colored {
-  font-size: 17px;
-  font-family: cursive;
-  color: black;
+  font-size: 16px;
+  color: #54b8ca;
 }
 
 .blackImage {
@@ -83,4 +91,26 @@ button {
   background: gray;
   width: 70%;
   height: 3rpx;
+}
+
+.fix-bottom {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 70%;
+  left: 60px;
+  bottom: 10px; /*置底*/
+  margin: auto;
+}
+
+.fix {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  max-width: 80%;
+  left: 80px;
+  bottom: 10px; /*置底*/
+  margin: auto;
 }

@@ -24,7 +24,7 @@ Page({
 
   toOthers: function () {
     wx.navigateTo({
-      url: '../otherService/otherService',
+      url: './other/other',
     })
   },
 

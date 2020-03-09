@@ -5,7 +5,11 @@ Page({
    * Page initial data
    */
   data: {
-
+    info: '我们推荐您选择文书复阅服务\n      \
+          价格为160 RMB/篇\n          \
+          我们将为您提供最专业的         \
+          文书评价诊断服务\n\n     \
+          微信搜索：Mercury Studio关注公众号\n联系客服获取更多信息呀~'
   },
 
   toWeb: function () {

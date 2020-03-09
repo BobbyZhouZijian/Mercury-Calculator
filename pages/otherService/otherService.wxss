@@ -1,1 +1,6 @@
 /* pages/otherService/otherService.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}

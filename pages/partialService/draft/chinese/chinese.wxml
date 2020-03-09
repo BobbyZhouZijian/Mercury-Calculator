@@ -15,7 +15,10 @@
     <view class="decision"><text>{{priceArray[index]}}</text></view>
   </view>
 </view>
-<view class="container">
-  <text class="web-colored" bindtap="toWeb">点击此处了解更多关于Mercury Studio</text>
+<view class="fix-bottom">
+  <view style="color: black">
+      <text class="web-colored" bindtap="toWeb">-点击此处了解更多-</text>
+  </view>
+  <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
 </view>
 <image class="blackImage" src="../../../../images/business.jpg"> </image>

@@ -6,8 +6,8 @@ Page({
    */
   data: {
     title: "请选择您的目标大学排名范围",
-    array: ['排名前30', '排名30-50', '排名50以后', '未选择'],
-    priceArray: ['PS: 8000-1000 RMB', '8000 RMB', '6000-8000 RMB，视情况而定', '您还未选择排名范围'],
+    array: ['全美排名前30', '全美排名30-50', '全美排名50以后', '未选择'],
+    priceArray: ['8000-10000 RMB \n(Personal Statement)', '8000 RMB \n(Personal Statement)', '6000-8000 RMB，视情况而定', '您还未选择排名范围'],
     index: 3,
   },
 

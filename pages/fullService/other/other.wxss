@@ -1,0 +1,5 @@
+/* pages/fullService/other/other.wxss */
+text {
+  font-weight: bold;
+  color: gray;
+}

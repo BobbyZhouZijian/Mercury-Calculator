@@ -9,3 +9,14 @@ flex-direction:column;
 align-items:center;
 /*要从整体解决排布的问题是最好的方案*/
 }
+
+.fix {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  max-width: 80%;
+  left: 80px;
+  bottom: 10px; /*置底*/
+  margin: auto;
+}

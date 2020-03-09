@@ -7,7 +7,7 @@ Page({
   data: {
     title: "请选择您的目标大学类型",
     array: ['牛津/剑桥/LSE', '其他G5学校', '非G5学校', '未选择'],
-    priceArray: ['5000 RMB', '4000 RMB', '2500-4000 RMB，视情况而定', '您还未选择排名范围'],
+    priceArray: ['5000 RMB/篇', '4000 RMB/篇', '2500-3500 RMB/篇 \n关注Mercury Studio公众号\n联系客服获得具体报价', '您还未选择排名范围'],
     index: 3,
   },
 
@@ -19,7 +19,7 @@ Page({
 
   toWeb: function () {
     wx.navigateTo({
-      url: '../../../web/web',
+      url: '../../web/web',
     })
   },
 

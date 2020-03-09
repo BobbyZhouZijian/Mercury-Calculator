@@ -5,10 +5,10 @@ Page({
    * Page initial data
    */
   data: {
-    idea: "有自己的想法",
-    outline: "已经有outline",
+    idea: "有自己的想法啦",
+    outline: "已经有outline啦",
     draft: "已经有自己的初稿",
-    fullScript: "已经有完整稿"
+    fullScript: "已经有完整稿啦"
   },
 
   toIdea: function() {

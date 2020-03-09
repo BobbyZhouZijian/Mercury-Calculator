@@ -4,3 +4,7 @@ text {
   color: gray;
   text-align: center;
 }
+
+.section__title {
+  text-align: center;
+}

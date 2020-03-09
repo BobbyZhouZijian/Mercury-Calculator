@@ -1,12 +1,22 @@
 <!--pages/partialService/draft/draft.wxml-->
-<view class="container">
-  <text>请选择您的初稿类型：</text>
-  <view class="div-line"></view>
-  <text>\n\n\n</text>
-    <button class="btn" hover-class="button-hover"
-        disabled="{{disabled}}" bindtap="toEnglish"> {{english}} </button>
-  <text>\n\n\n</text>
-    <button class="btn" hover-class="button-hover"
-        disabled="{{disabled}}" bindtap="toChinese"> {{chinese}} </button>
+<view class="page">
+  <view class="container">
+    <text>请选择您的初稿类型：</text>
+    <view class="div-line"></view>
+    <text>\n\n\n\n</text>
+      <button class="btn" hover-class="button-hover"
+          disabled="{{disabled}}" bindtap="toEnglish"> {{english}} </button>
+    <text>\n\n\n\n\n</text>
+      <button class="btn" hover-class="button-hover"
+          disabled="{{disabled}}" bindtap="toChinese"> {{chinese}} </button>
+  </view>
+  <view class="weui-footer">
+    <view class="fix">
+      <view style="color: black">
+          Mercury Studio
+      </view>
+      <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
+    </view>
+  </view>
 </view>
 <image class="blackImage" src="../../../images/business.jpg"> </image>
