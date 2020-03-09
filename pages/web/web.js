@@ -1,31 +1,11 @@
-// pages/fullService/fullService.js
+// pages/web/web.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    ukps: "申英文书",
-    ps: "申美文书",
-    others: "其他国家文书"
-  },
 
-  toUS: function () {
-    wx.navigateTo({
-      url: "./ps/ps"
-    })
-  },
-
-  toUK: function () {
-    wx.navigateTo({
-      url: "./ukps/ukps"
-    })
-  },
-
-  toOthers: function () {
-    wx.navigateTo({
-      url: '../otherService/otherService',
-    })
   },
 
   /**

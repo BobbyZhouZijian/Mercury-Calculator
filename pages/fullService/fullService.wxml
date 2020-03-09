@@ -2,12 +2,18 @@
 <view class="container">
   <view class="usermotto">
     <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
-        disabled="{{disabled}}" bindtap="toPS"> {{ps}} </button>
+        disabled="{{disabled}}" bindtap="toUS"> {{ps}} </button>
   </view>
 </view>
 <view class="container">
   <view class="usermotto">
     <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
-        disabled="{{disabled}}" bindtap="toSupplement"> {{supplement}} </button>
+        disabled="{{disabled}}" bindtap="toUK"> {{ukps}} </button>
+  </view>
+</view>
+<view class="container">
+  <view class="usermotto">
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toOthers"> {{others}} </button>
   </view>
 </view>

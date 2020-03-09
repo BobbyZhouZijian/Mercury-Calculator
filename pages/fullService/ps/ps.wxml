@@ -1,17 +1,13 @@
 <!--pages/fullService/ps/ps.wxml-->
 <view class="container">
-  <!--选择器-->
-  <view class="section">
-    <view class="section__title">{{title}}</view>
-    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-      <view>当前选择：</view><view class="picker">
-        ○ {{array[index]}}
-      </view>
-    </picker>
+  <view class="usermotto">
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toRanking"> {{ranking}} </button>
   </view>
-  <view class="section">
-    <view>根据您的排名选择，我们给您的建议价格为：</view>
-    <text>\n\n</text>
-    <view class="decision">{{priceArray[index]}}</view>
+</view>
+<view class="container">
+  <view class="usermotto">
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toSupplementary"> {{supplementary}} </button>
   </view>
 </view>

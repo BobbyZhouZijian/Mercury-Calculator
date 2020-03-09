@@ -1,0 +1,2 @@
+<!--pages/web/web.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://mp.weixin.qq.com/s/vJ02In_G_cW2RpogX-R0ZQ"></web-view>

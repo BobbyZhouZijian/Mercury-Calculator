@@ -12,3 +12,27 @@
 text {
 font-family:MicroSoft yahei;
 }
+
+.section__title{
+  margin-bottom: 20rpx;
+}
+.section{
+  margin: 50rpx 0;
+  font-size: 30rpx;
+}
+
+.picker {
+  color: brown;
+  font-weight:bold;
+}
+
+.decision {
+  border:1px solid #405f80;
+  width:500rpx;
+  border-radius:5rpx;
+  text-align:center;
+}
+
+.web-colored {
+  color: blueviolet;
+}

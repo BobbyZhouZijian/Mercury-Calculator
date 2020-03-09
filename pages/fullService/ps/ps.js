@@ -6,26 +6,20 @@ Page({
    */
 
   data: {
-    title: "请选择您的目标大学排名范围",
-    array: ['排名前30', '排名30-50', '排名50以后', '未选择'],
-    priceArray: ['PS: 8000-1000', '8000', '6000-8000，视情况而定', '您还未选择排名范围'],
-    index: 3,
+    ranking: "根据学校排名",
+    supplementary: "根据补充文书类型",
   },
 
-  bindPickerChange: function (e) {
-    this.setData({
-      index: e.detail.value
+  toRanking: function () {
+    wx.navigateTo({
+      url: "./ranking/ranking"
     })
   },
 
-  suggestion: function() {
-    if (this.index == 0) {
-      return "2000";
-    } else if (this.index == 1) {
-      return "1000";
-    } else if (this.index == 2) {
-      return "0";
-    }
+  toSupplementary: function () {
+    wx.navigateTo({
+      url: "./supplementaryEssays/supplement"
+    })
   },
 
   /**

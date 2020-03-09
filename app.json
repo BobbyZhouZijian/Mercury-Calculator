@@ -4,10 +4,13 @@
     "pages/logs/logs",
     "pages/menu/menu",
     "pages/calc/calc",
+    "pages/web/web",
     "pages/fullService/fullService",
     "pages/partialService/partialService",
+    "pages/otherService/otherService",
     "pages/fullService/ps/ps",
-    "pages/fullService/supplementaryEssays/supplement",
+    "pages/fullService/ukps/ukps",
+    "pages/fullService/ps/supplementaryEssays/supplement",
     "pages/fullService/ps/ranking/ranking"
   ],
   "window": {

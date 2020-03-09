@@ -1,4 +1,4 @@
-<!--pages/fullService/ps/ranking/ranking.wxml-->
+<!--pages/fullService/ukps/ukps.wxml-->
 <view class="container">
   <!--选择器-->
   <view class="section">
@@ -10,7 +10,7 @@
     </picker>
   </view>
   <view class="section">
-    <view>根据您的排名选择，我们给您的建议价格为：</view>
+    <view>根据您的学校选择，我们给您的建议价格为：</view>
     <text>\n\n</text>
     <view class="decision">{{priceArray[index]}}</view>
   </view>

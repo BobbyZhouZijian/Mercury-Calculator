@@ -1,12 +1,12 @@
-<!--pages/fullService/ps/ranking/ranking.wxml-->
+<!--pages/fullService/supplementaryEssays/supplement.wxml-->
 <view class="container">
   <!--选择器-->
   <view class="section">
     <view class="section__title">{{title}}</view>
     <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-      <view>
-        <text>当前选择：</text><text class="picker"> ○ {{array[index]}}</text>
-      </view>
+    <view>
+      <text>当前选择：</text><text class="picker"> ○ {{array[index]}}</text>
+    </view>
     </picker>
   </view>
   <view class="section">

@@ -1,30 +1,25 @@
-// pages/fullService/fullService.js
+// pages/fullService/supplementaryEssays/supplement.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    ukps: "申英文书",
-    ps: "申美文书",
-    others: "其他国家文书"
+    title: "请选择你想要的补充文书类型",
+    array: ['Why Essay', 'Activity Essay', '其他类型', '未选择'],
+    priceArray: ['1000-1500 RMB', '8000 RMB', '6000-8000 RMB，视情况而定', '您还未选择排名范围'],
+    index: 3,
   },
 
-  toUS: function () {
-    wx.navigateTo({
-      url: "./ps/ps"
+  bindPickerChange: function (e) {
+    this.setData({
+      index: e.detail.value
     })
   },
 
-  toUK: function () {
+  toWeb: function () {
     wx.navigateTo({
-      url: "./ukps/ukps"
-    })
-  },
-
-  toOthers: function () {
-    wx.navigateTo({
-      url: '../otherService/otherService',
+      url: '../../../web/web',
     })
   },
 

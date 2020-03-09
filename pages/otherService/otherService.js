@@ -1,4 +1,4 @@
-// pages/fullService/supplementaryEssays/supplement.js
+// pages/otherService/otherService.js
 Page({
 
   /**

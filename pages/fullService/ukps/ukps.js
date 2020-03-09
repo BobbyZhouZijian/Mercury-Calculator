@@ -1,30 +1,25 @@
-// pages/fullService/fullService.js
+// pages/fullService/ukps/ukps.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    ukps: "申英文书",
-    ps: "申美文书",
-    others: "其他国家文书"
+    title: "请选择您的目标大学类型",
+    array: ['牛津/剑桥/LSE', '其他G5学校', '非G5学校', '未选择'],
+    priceArray: ['5000 RMB', '4000 RMB', '2500-4000 RMB，视情况而定', '您还未选择排名范围'],
+    index: 3,
   },
 
-  toUS: function () {
-    wx.navigateTo({
-      url: "./ps/ps"
+  bindPickerChange: function (e) {
+    this.setData({
+      index: e.detail.value
     })
   },
 
-  toUK: function () {
+  toWeb: function () {
     wx.navigateTo({
-      url: "./ukps/ukps"
-    })
-  },
-
-  toOthers: function () {
-    wx.navigateTo({
-      url: '../otherService/otherService',
+      url: '../../../web/web',
     })
   },
 
