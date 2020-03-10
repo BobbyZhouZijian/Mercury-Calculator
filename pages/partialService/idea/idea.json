@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "已有想法",
+  "usingComponents": {},
+  "disableScroll": true
 }

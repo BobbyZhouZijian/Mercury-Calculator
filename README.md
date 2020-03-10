@@ -3,6 +3,7 @@
 
 ## tools
 - No exceptional tools, noly wechat developer tool
+- Now I also use weui but find it quite useless
 
 ## author
 - Zhou Zijian

@@ -1,7 +1,7 @@
 <!--pages/otherService/otherService.wxml-->
 <view class="page">
   <view class="container"></view>
-  <view class="decision"><text>{{info}}</text></view>
+  <view class="box"><text>{{info}}</text></view>
   <view class="fix-bottom">
     <view style="color: black">
         <text class="web-colored" bindtap="toWeb">点击此处了解更多关于Mercury Studio</text>

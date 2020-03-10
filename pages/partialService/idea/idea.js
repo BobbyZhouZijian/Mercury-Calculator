@@ -7,6 +7,12 @@ Page({
   data: {
 
   },
+  
+  toWeb: function () {
+    wx.navigateTo({
+      url: '../../../web/web',
+    })
+  },
 
   /**
    * Lifecycle function--Called when page load
