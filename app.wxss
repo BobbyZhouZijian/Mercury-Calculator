@@ -41,7 +41,7 @@ font-family:MicroSoft yahei;
   justify-content: center;
   width: 70%;
   left: 60px;
-  border-radius:50rpx;
+  border-radius:30rpx;
   text-align:center;
 }
 
@@ -115,4 +115,9 @@ button {
 
 .section__title {
   text-align: center;
+}
+
+.box {
+  margin-left: 100rpx;
+  margin-right: 100rpx;
 }

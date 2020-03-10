@@ -5,7 +5,11 @@ Page({
    * Page initial data
    */
   data: {
-
+    motto: "我们给您的辅导意见为：",
+    text: "我们推荐您选择先和我们的导师进 \
+    行一对一Brainstorm，价格为200RMB/小时，\
+    以便我们的导师确认您文书思路的可行度\n\n如果您 \
+    还有疑问，欢迎咨询Mercury Studio公众号客服"
   },
   
   toWeb: function () {

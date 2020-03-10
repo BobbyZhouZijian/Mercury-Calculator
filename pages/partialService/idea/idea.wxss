@@ -3,8 +3,3 @@ text {
   color : gray;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.box {
-  margin-left: 100rpx;
-  margin-right: 100rpx;
-}

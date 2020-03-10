@@ -3,8 +3,3 @@ text {
   color: gray;
   text-align: center;
 }
-
-.box {
-  margin-left: 100rpx;
-  margin-right: 100rpx;
-}
