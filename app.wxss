@@ -27,6 +27,7 @@ font-family:MicroSoft yahei;
 .picker {
   color: burlywood;
   font-weight:bold;
+  text-align: center;
 }
 
 .decision {
@@ -110,4 +111,8 @@ button {
   align-content: center;
   position: fixed;
   bottom: 10px; /*置底*/
+}
+
+.section__title {
+  text-align: center;
 }
