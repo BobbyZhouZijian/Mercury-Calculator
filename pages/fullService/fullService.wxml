@@ -16,7 +16,7 @@
   <view class="fix-bottom">
     <view class="weui-footer">
       <view class="weui-footer__links">
-          <navigator url="" class="weui-footer__link">Mercury Studio</navigator>
+          <text style="color: black" class="weui-footer__link">Mercury Studio</text>
       </view>
       <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
     </view>
