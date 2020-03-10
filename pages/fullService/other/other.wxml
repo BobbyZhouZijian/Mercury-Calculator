@@ -5,7 +5,7 @@
     <view class="section__title"><text>{{title}}</text></view>
     <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
       <view>
-        <text>当前选择：</text><text class="picker"> ○ {{index == 3 ? "点击此处选择" : array[index]}}</text>
+        <text>当前选择：</text><text class="picker"> ○ {{index == 5 ? "点击此处选择" : array[index]}}</text>
       </view>
     </picker>
   </view>

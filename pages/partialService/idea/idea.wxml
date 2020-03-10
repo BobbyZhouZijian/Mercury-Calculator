@@ -7,8 +7,11 @@
     我们推荐您选择先和我们的导师进行一对一Brainstorm，价格为200RMB/小时，以便我们的导师确认您文书思路的可行度\n\n
     如果您还有疑问，欢迎咨询Mercury Studio公众号客服
   </text>
-</view>
-<view class="container">
-  <text class="web-colored" bindtap="toWeb">点击此处了解更多关于Mercury Studio</text>
+  <view class="fix-bottom">
+    <view style="color: black">
+        <text class="web-colored" bindtap="toWeb">点击此处了解更多关于Mercury Studio</text>
+    </view>
+    <view class="weui-footer__text">Copyright © 2020: all rights reserved</view>
+  </view>
 </view>
 <image class="blackImage" src="../../../images/business.jpg"> </image>

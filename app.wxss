@@ -38,7 +38,6 @@ font-family:MicroSoft yahei;
   border: 1px solid lightblue;
   align-items: center;
   justify-content: center;
-  height: 300px;  
   width: 70%;
   left: 60px;
   border-radius:50rpx;
@@ -108,9 +107,7 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+  align-content: center;
   position: fixed;
-  max-width: 80%;
-  left: 80px;
   bottom: 10px; /*置底*/
-  margin: auto;
 }

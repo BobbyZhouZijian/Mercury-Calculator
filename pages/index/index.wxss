@@ -7,8 +7,6 @@
 }
 
 .enter-btn {
-  width: 64rpx;
-  height: 84rpx;
   border-radius: 98rpx;
   background: #C9D6FF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
