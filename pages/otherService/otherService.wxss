@@ -1,5 +1,4 @@
 /* pages/otherService/otherService.wxss */
 text {
   color: gray;
-  text-align: center;
 }

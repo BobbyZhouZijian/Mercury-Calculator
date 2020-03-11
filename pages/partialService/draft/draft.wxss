@@ -1,1 +1,4 @@
 /* pages/partialService/draft/draft.wxss */
+.motto {
+  margin-top: 200rpx;
+}

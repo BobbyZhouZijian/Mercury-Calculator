@@ -5,12 +5,14 @@
       请选择您想要的服务类型：
     </text>
     <view class="div-line"></view>
-    <text>\n\n\n\n</text>
-    <button class="btn" hover-class="button-hover"
-        disabled="{{disabled}}" bindtap="toFull"> {{fullService}} </button>
-    <text>\n\n\n\n</text>
-    <button class="btn" over-class="button-hover"
-        disabled="{{disabled}}" bindtap="toPartial"> {{partialService}} </button>
+    <view class="motto">
+      <button class="btn" hover-class="button-hover"
+          disabled="{{disabled}}" bindtap="toFull"> {{fullService}} </button>
+    </view>
+    <view class="motto">
+      <button class="btn" over-class="button-hover"
+          disabled="{{disabled}}" bindtap="toPartial"> {{partialService}} </button>
+    </view>
   </view>
   <view class="fix-bottom">
     <view class="weui-footer">

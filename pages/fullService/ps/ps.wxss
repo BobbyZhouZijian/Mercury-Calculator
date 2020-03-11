@@ -1,1 +1,4 @@
 /* pages/fullService/ps/ps.wxss */
+.motto {
+  margin-top: 200rpx;
+}

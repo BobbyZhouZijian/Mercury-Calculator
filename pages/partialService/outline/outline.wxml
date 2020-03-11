@@ -1,14 +1,17 @@
 <!--pages/partialService/outline/outline.wxml-->
 <view class="container">
-  <view class="section__title">{{motto}}</view>
-  <view class="div-line"></view>
   <view class="page">
     <view class="page__hd">
-      <text>\n\n\n\n</text>
+      <view class="section__title">
+        <text>{{motto}}</text>
+        <view class="inner-div"></view>
+      </view>
     </view>
     <view class="page__bd">
-      <view class="box">
-        <text>{{text}}</text>
+      <view class="motto">
+        <view class="box">
+          <text>{{text}}</text>
+        </view>
       </view>
     </view>
     <view class="fix-bottom">

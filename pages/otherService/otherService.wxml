@@ -7,7 +7,13 @@
       <text>\n\n\n\n</text>
     </view>
     <view class="page__bd">
-      <view class="box"><text>{{info}}</text></view>
+      <view class="box">
+        <view class="section__title">
+          <text>{{info1}}</text>
+          <text>{{info2}}</text>
+          <text>{{info3}}</text>
+        </view>
+      </view>
     </view>
     <view class="fix-bottom">
       <view style="color: black">

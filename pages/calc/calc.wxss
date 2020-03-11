@@ -9,3 +9,7 @@ flex-direction:column;
 align-items:center;
 /*要从整体解决排布的问题是最好的方案*/
 }
+
+.motto {
+  margin-top: 150rpx;
+}

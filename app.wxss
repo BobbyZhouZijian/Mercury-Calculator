@@ -40,7 +40,7 @@ font-family:MicroSoft yahei;
   align-items: center;
   justify-content: center;
   width: 70%;
-  left: 60px;
+  left: 100rpx;
   border-radius:30rpx;
   text-align:center;
 }
@@ -91,6 +91,12 @@ button {
   background: gray;
   width: 70%;
   height: 3rpx;
+}
+
+.inner-div {
+  height: 1px;
+  border: none;
+  border-top:5px ridge #45D6D8;
 }
 
 .fix-bottom {
