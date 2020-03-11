@@ -1,8 +1,11 @@
 <!--pages/menu/menu.wxml-->
-<view class="container">
-  <text>Menu - Mercury Studio\n\n</text>
-  <image mode="aspectFill" src="../../images/price-menu1.jpg" bindtap="preview1"></image>
-  <text>\n</text>
-  <image mode="aspectFill" src="../../images/price-menu2.jpg" bindtap="preview2"></image>
-  <image class="blackImage" src="../../images/business.jpg"> </image>
+<view class="menu-container">
+  <view class="page">
+    <view class="page__bd">
+      <image mode="aspectFill" src="../../images/price-menu1.jpg" bindtap="preview1"></image>
+      <text>\n</text>
+      <image mode="aspectFill" src="../../images/price-menu2.jpg" bindtap="preview2"></image>
+    </view>
+  </view>
 </view>
+<image class="blackImage" src="../../images/business.jpg"> </image>

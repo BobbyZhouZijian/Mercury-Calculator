@@ -2,3 +2,7 @@
 text {
   color: gray;
 }
+
+.motto {
+  margin-top: 80rpx;
+}

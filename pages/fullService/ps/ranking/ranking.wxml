@@ -11,8 +11,8 @@
           <text class="picker"> ○ {{index == 3 ? "点击此处选择" : array[index]}}\n\n</text>
         </view>
       </picker>
-      <view class="section__title">
-        <text class="box">根据您的排名选择，\n我们给您的建议价格为：</text>
+      <view class="section__t†itle">
+        <text>根据您的排名选择，\n我们给您的建议价格为：</text>
       </view>
       <text>\n\n</text>
       <view class="decision"><text>{{priceArray[index]}}</text></view>

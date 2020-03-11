@@ -12,7 +12,7 @@
         </view>
       </picker>
       <view class="section__title">
-        <text class="box">根据您的国家选择，\n我们给您的建议价格为：</text>
+        <text>根据您的国家选择，\n我们给您的建议价格为：</text>
       </view>
       <text>\n\n</text>
       <view class="decision"><text>{{priceArray[index]}}</text></view>

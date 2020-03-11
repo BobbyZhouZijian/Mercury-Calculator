@@ -5,3 +5,17 @@ text {
   font-weight: bold;
   color: blueviolet;
 }
+
+.align {
+  text-align: center;
+}
+
+.menu-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 0;
+  box-sizing: border-box;
+} 

@@ -94,9 +94,10 @@ button {
 }
 
 .inner-div {
-  height: 1px;
-  border: none;
-  border-top:5px ridge #45D6D8;
+  background: gray;
+  width: 70%;
+  height: 3rpx;
+  margin-left: 100rpx;
 }
 
 .fix-bottom {
